@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectLTV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f7f9fc;
+        }
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            color: #0053ba;
+        }
+        .description {
+            font-size: 18px;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+        .chat-container {
+            margin-top: 30px;
+        }
+        .chat-prompt {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        #chatbox {
+            width: 60%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .search-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0053ba;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .examples {
+            margin-top: 20px;
+            text-align: left;
+            display: inline-block;
+            max-width: 60%;
+            font-size: 16px;
+        }
+        .example-item {
+            background-color: #e9f0fb;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">ConnectLTV</div>
+    <div class="description">
+        Welcome to ConnectLTV – your gateway to a dynamic network of HBS Tech alumni. Seeking career guidance, startup feedback, go-to-market expertise, or more? Simply type your query, and ConnectLTV will identify the alumni best suited to support you. Connect, collaborate, and innovate like never before with ConnectLTV!
+    </div>
+    <div class="chat-container">
+        <div class="chat-prompt">What guidance or expertise are you looking for?</div>
+        <input id="chatbox" type="text" placeholder="I'm looking for someone with expertise in go-to-market for early-stage enterprise software within the education sector in the United States">
+        <button class="search-btn">Search</button>
+    </div>
+    <div class="examples">
+        <div class="example-item">Career guidance: "I'm debating between joining or founding a startup after HBS. I'm seeking insights from alumni 8-10 years out on both paths."</div>
+        <div class="example-item">Seeking expertise: "I'm building a startup in SaaS for construction, focusing on workflow automation. I'm looking for experts in operations and workflow management."</div>
+        <div class="example-item">Building partnership: "I'm looking for senior leaders in restaurant finance for partnerships on an invoice automation startup."</div>
+    </div>
+</body>
+</html>
